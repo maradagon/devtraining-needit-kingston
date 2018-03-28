@@ -12,7 +12,7 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-   alert("Hello " + g_user.firstName + " " + g_user.lastName + ". Thank you for using NeedIt!");
+   g_form.addInfoMessage("Hello " + g_user.firstName + " " + g_user.lastName + ". Thank you for using NeedIt!");
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -20,7 +20,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>804970364f011300bcc401bda310c72e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Welcome</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -28,7 +28,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_804970364f011300bcc401bda310c72e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-28 08:49:56</sys_updated_on>
+        <sys_updated_on>2018-03-28 14:34:40</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

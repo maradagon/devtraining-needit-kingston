@@ -2,15 +2,12 @@
 <database>
     <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" sizeclass="2" type="collection">
         <element label="For" mandatory="true" max_length="32" name="u_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="E-Mail" mandatory="true" max_length="40" name="u_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="What needed" mandatory="true" max_length="40" name="u_needed" type="string">
-            <choice>
-                <element label="Human Resources 1" sequence="0" value="hr1"/>
-                <element label="Human Resources 2" sequence="1" value="hr2"/>
-                <element label="Other" sequence="2" value="other"/>
-            </choice>
+            <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="hr" label="Request type" mandatory="true" max_length="40" name="u_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Request type" mandatory="true" max_length="40" name="u_type" type="string">
             <choice>
                 <element label="Human resources" sequence="0" value="hr"/>
                 <element label="Facilities" sequence="1" value="facilities"/>
