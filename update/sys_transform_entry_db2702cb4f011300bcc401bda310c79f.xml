@@ -5,7 +5,7 @@
         <coalesce>true</coalesce>
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
-        <date_format>MM/dd/yyyy</date_format>
+        <date_format>MM/dd/yy</date_format>
         <map display_value="NeedIt Historic Data Import">ed3cb94b4f011300bcc401bda310c752</map>
         <reference_value_field/>
         <source_field>u_must_have_by</source_field>
@@ -20,14 +20,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-03-29 09:00:09</sys_created_on>
         <sys_id>db2702cb4f011300bcc401bda310c79f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>u_must_have_by</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_transform_entry_db2702cb4f011300bcc401bda310c79f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-03-29 09:09:18</sys_updated_on>
+        <sys_updated_on>2018-03-29 09:43:09</sys_updated_on>
         <target_field>u_when</target_field>
         <target_table>x_58872_needit_needit</target_table>
         <use_source_script>false</use_source_script>
